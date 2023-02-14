@@ -13,7 +13,6 @@ import (
 )
 
 func Stop(job *cron.Job, s *cron.Scheduler) {
-
 	// counting the number of time the job runs and use remove by reference function to remove the job
 	if job.RunCount() > 10 {
 		s.RemoveByReference(job)
