@@ -1,8 +1,11 @@
 package service
 
 import (
-	"cron/service/weather"
+	// Standard Libs
 	"fmt"
+
+	// Third Party Libs
+	"cron/service/weather"
 )
 
 func GetWeatherByCity(city string) {
