@@ -8,7 +8,6 @@ import (
 
 func main() {
 	var choice string
-
 	fmt.Println("Do you want to get the weather data using city or pincode?")
 	fmt.Scan(&choice)
 
