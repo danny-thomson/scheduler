@@ -1,12 +1,14 @@
 package weather
 
 import (
+	// Standard Libs
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"time"
 
+	// Third Party Libs
 	cron "github.com/go-co-op/gocron"
 )
 
