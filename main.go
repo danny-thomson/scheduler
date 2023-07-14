@@ -9,7 +9,7 @@ import (
 	"cron/service"
 )
 
-// commens added
+// comments added
 func main() {
 	var choice string
 	fmt.Println("Do you want to get the weather data using city or pincode?")
