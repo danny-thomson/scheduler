@@ -20,14 +20,12 @@ func main() {
 		var city string
 		fmt.Println("Enter a city name:")
 		fmt.Scan(&city)
-
 		service.GetWeatherByCity(city)
 
 	case "pincode":
 		var pincode string
 		fmt.Println("Enter a pincode:")
 		fmt.Scan(&pincode)
-
 		service.GetWeatherByPincode(pincode)
 
 	default:
