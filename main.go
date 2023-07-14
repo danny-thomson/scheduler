@@ -9,7 +9,7 @@ import (
 	"cron/service"
 )
 
-// added comment
+// comments added
 func main() {
 	var choice string
 	fmt.Println("Do you want to get the weather data using city or pincode?")
@@ -18,7 +18,6 @@ func main() {
 	switch strings.ToLower(choice) {
 	case "city":
 		var city string
-
 		fmt.Println("Enter a city name:")
 		fmt.Scan(&city)
 
@@ -26,7 +25,6 @@ func main() {
 
 	case "pincode":
 		var pincode string
-
 		fmt.Println("Enter a pincode:")
 		fmt.Scan(&pincode)
 
